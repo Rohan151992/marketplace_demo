@@ -8,7 +8,6 @@ with customers as (
 orders as (
 
     select * from {{ ref('neworder') }}
-
 ),
 
 customer_orders as (
