@@ -3,3 +3,9 @@
     select * from {{ ref('neworder') }}
 
 ),
+
+ with orders as (
+
+    select * from {{ ref('neworder') }}
+
+),
