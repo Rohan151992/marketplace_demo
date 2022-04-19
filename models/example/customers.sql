@@ -9,7 +9,7 @@ orders as (
 
     select * from {{ ref('neworder') }}
 ),
-rohan
+phedrus1
 
 customer_orders as (
 
